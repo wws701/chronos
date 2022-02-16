@@ -22,7 +22,7 @@ jobs:
           name: Static Check & Lint
           command: yarn run check
       - run:
-          name: Test
+          name: TEST
           command: yarn test:ci
       - run:
           name: Build (demo)
